@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+document.body.classList.add("no-scroll");
+
 ReactDOM.render(
 	<React.StrictMode>
-		<App />
+		<App className="no-scroll" />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
